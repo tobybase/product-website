@@ -1,7 +1,14 @@
 import React from 'react';
+import FeatureSection from '../FeatureSection';
+import HeroSection from '../HeroSection';
 
 const Home = () => {
-  return <h3>HOME</h3>;
+  return (
+    <>
+      <HeroSection />
+      <FeatureSection />
+    </>
+  );
 };
 
 export default Home;
