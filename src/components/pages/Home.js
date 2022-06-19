@@ -1,5 +1,6 @@
 import React from 'react';
 import FeatureSection from '../FeatureSection';
+import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <HeroSection />
       <FeatureSection />
+      <Footer />
     </>
   );
 };
