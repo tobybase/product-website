@@ -6,7 +6,7 @@ const FeatureSection = () => {
     <div className='feature-section'>
       <h3>Products</h3>
       <div className='feature-container'>
-        <img src='images/cover.jpg' alt='product' />
+        <img src='images/sample-1.jpg' alt='product' />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
           aspernatur? Non beatae culpa nostrum quisquam veniam, optio tempora
@@ -15,7 +15,7 @@ const FeatureSection = () => {
         </p>
       </div>
       <div className='feature-container'>
-        <img src='images/dumRice-1.jpg' alt='product' />
+        <img src='images/sample-2.jpg' alt='product' />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
           aspernatur? Non beatae culpa nostrum quisquam veniam, optio tempora
@@ -24,7 +24,7 @@ const FeatureSection = () => {
         </p>
       </div>
       <div className='feature-container'>
-        <img src='images/product-1.jpg' alt='product' />
+        <img src='images/sample-3.jpg' alt='product' />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
           aspernatur? Non beatae culpa nostrum quisquam veniam, optio tempora
@@ -33,7 +33,7 @@ const FeatureSection = () => {
         </p>
       </div>
       <div className='feature-container'>
-        <img src='images/product-2.jpg' alt='product' />
+        <img src='images/sample-4.jpg' alt='product' />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
           aspernatur? Non beatae culpa nostrum quisquam veniam, optio tempora
