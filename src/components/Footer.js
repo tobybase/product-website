@@ -11,9 +11,9 @@ const Footer = () => {
       </section>
       <div className='footer-links'>
         <h2>JoVi</h2>
-        <Link to='/sign-up'>Home</Link>
-        <Link to='/'>產品</Link>
-        <Link to='/'>關於我們</Link>
+        <Link to='/'>Home</Link>
+        <Link to='/product'>產品</Link>
+        <Link to='/about'>關於我們</Link>
       </div>
       <section className='social-media'>
         <div className='social-icons'>
