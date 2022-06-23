@@ -4,7 +4,7 @@ import './FeatureSection.css';
 const FeatureSection = () => {
   return (
     <div className='feature-section'>
-      <h3>Products</h3>
+      <h3>Main Idea</h3>
       <div className='feature-container'>
         <img src='images/sample-1.jpg' alt='product' />
         <p>

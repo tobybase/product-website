@@ -6,7 +6,7 @@
 h3 {
   display: flex;
   justify-content: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .feature-container {
@@ -34,11 +34,18 @@ h3 {
 
 .feature-container > img {
   border-radius: 20px;
-  width: 400px;
-  height: 300px;
+  height: 350px;
+  aspect-ratio: 2/1;
+  object-fit: cover;
   transition: all 0.2s ease-in-out;
 }
 
 .feature-container > img:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .feature-section {
+    padding: 2rem 2rem;
+  }
 }
