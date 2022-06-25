@@ -1,0 +1,26 @@
+.about-container {
+  position: flex;
+  padding: 2rem 2rem;
+  margin: 3rem;
+}
+
+.about-content {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.about-container > h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.about-content > img {
+  width: 400px;
+  z-index: -1;
+}
+
+p {
+  position: relative;
+  background-color: bisque;
+}

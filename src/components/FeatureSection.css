@@ -1,10 +1,10 @@
 .feature-section {
+  padding: 2rem 2rem;
   background-color: #eae8e8;
-  padding: 2rem 0;
   align-items: center;
 }
 
-h3 {
+.feature-section > h3 {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
@@ -48,5 +48,9 @@ h3 {
 @media screen and (max-width: 768px) {
   .feature-section {
     padding: 2rem 2.5rem;
+  }
+
+  .feature-container > p {
+    text-align: start;
   }
 }

@@ -4,6 +4,12 @@
   justify-content: center;
 }
 
+.product-container > h3 {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
 .product-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
