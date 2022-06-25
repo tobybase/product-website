@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from '../UI/Card';
 import './Product.css';
 
 const Product = () => {
@@ -6,33 +7,31 @@ const Product = () => {
     <>
       <div className='product-container'>
         <h3>Product</h3>
-        <div className='product-item'>
-          <img src='images/vest.jpg' alt='product' />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, incidunt suscipit sed porro reprehenderit molestiae?
-          </p>
-        </div>
-        <div className='product-item'>
-          <img src='images/overalls.jpg' alt='product' />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, incidunt suscipit sed porro reprehenderit molestiae?
-          </p>
-        </div>
-        <div className='product-item'>
-          <img src='images/shorts-1.jpg' alt='product' />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, incidunt suscipit sed porro reprehenderit molestiae?
-          </p>
-        </div>
-        <div className='product-item'>
-          <img src='images/shorts-2.jpeg' alt='product' />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, incidunt suscipit sed porro reprehenderit molestiae?
-          </p>
+        <div className='product-wrapper'>
+          <Card
+            imageUrl='images/vest.jpg'
+            title='Vest'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium, incidunt suscipit sed porro reprehenderit molestiae?'
+          />
+          <Card
+            imageUrl='images/overalls.jpg'
+            title='Overalls'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium, incidunt suscipit sed porro reprehenderit molestiae?'
+          />
+          <Card
+            imageUrl='images/shorts-1.jpg'
+            title='Shorts'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium, incidunt suscipit sed porro reprehenderit molestiae?'
+          />
+          <Card
+            imageUrl='images/shorts-2.jpeg'
+            title='Shorts'
+            body='Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium, incidunt suscipit sed porro reprehenderit molestiae?'
+          />
         </div>
       </div>
     </>
