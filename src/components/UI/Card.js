@@ -10,7 +10,7 @@ const Card = ({ imageUrl, title, body }) => {
       <div className='card-title'>
         <h3>{title}</h3>
       </div>
-      <div className='card-body'>
+      <div className='card-content'>
         <p>{body}</p>
       </div>
     </div>

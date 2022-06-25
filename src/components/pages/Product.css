@@ -6,50 +6,20 @@
 
 .product-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   padding: 2rem;
   justify-items: center;
 }
 
-/* .product-item {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 2rem;
-  justify-items: center;
+@media screen and (max-width: 1170px) {
+  .product-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
-.product-item > img {
-  border-radius: 20px;
-  height: 350px;
-  transition: all 0.2s ease-in-out;
-}
-
-.product-item > img:hover {
-  transform: scale(1.1);
-}
-
-.product-item > p {
-  display: grid;
-  align-content: center;
-  padding: 20px 20px;
-  line-height: 1.7;
-  font-size: 20px;
-} */
 
 @media screen and (max-width: 768px) {
   .product-wrapper {
     grid-template-columns: 1fr;
   }
-
-  /* .product-item > p {
-    display: grid;
-    align-content: center;
-    line-height: 1.7;
-    font-size: 20px;
-  }
-
-  .product-item > img {
-    margin-bottom: 20px;
-  } */
 }
