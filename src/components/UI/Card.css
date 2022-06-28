@@ -40,7 +40,6 @@ p {
 }
 
 .img-container img {
-  border-radius: 20px;
   height: 350px;
   aspect-ratio: 2/1;
   transition: all 0.2s ease-in-out;

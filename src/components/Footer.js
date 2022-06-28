@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <section className='footer-description'>
-        <p className='footer-description-heading'>👋手做溫暖、問暖手作👋</p>
+        <p className='footer-description-heading'>👋手做溫暖、溫暖手作👋</p>
         <p className='footer-subscription-text'>歡迎訂閱、追蹤、分享</p>
       </section>
       <div className='footer-links'>
