@@ -1,8 +1,34 @@
 .card-container {
+  position: relative;
+  display: inline-block;
   width: 300px;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: 0px 0px 15px -15px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-container::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Scale up the box */
+.card-container:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* Fade in the pseudo-element with the bigger shadow */
+.card-container:hover::after {
+  opacity: 1;
 }
 
 h3,
@@ -17,15 +43,11 @@ p {
   border-radius: 20px;
   height: 350px;
   aspect-ratio: 2/1;
-  /* object-fit: cover; */
   transition: all 0.2s ease-in-out;
 }
 
-.img-container img:hover {
-  transform: scale(1.1);
-}
-
 .card-title {
+  text-align: center;
   margin-top: 15px;
 }
 
